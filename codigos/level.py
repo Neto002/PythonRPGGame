@@ -41,4 +41,4 @@ class YSortCameraGroup(pygame.sprite.Group):
 
     def custom_draw(self):
         for sprite in self.sprites():
-                self.display_surface.blit(sprite.image, sprite.rect)
+            self.display_surface.blit(sprite.image, sprite.rect)
